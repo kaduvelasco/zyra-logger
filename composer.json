@@ -1,0 +1,25 @@
+{
+  "name":        "kaduvelasco/zyra-logger",
+  "version":     "1.0.0",
+  "type":        "library",
+  "description": "Classe simples para trabalhar com log no PHP.",
+  "keywords":    ["php","log", "logger"],
+  "homepage":    "https://github.com/kaduvelasco/zyra-logger",
+  "license":     "MIT",
+  "authors": [
+    {
+      "name":  "Kadu Velasco",
+      "email": "kadu.velasco@gmail.com",
+      "role":  "Developer"
+    }
+  ],
+  "require": {
+    "php":     ">=7.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Zyra\\": "src"
+    }
+  },
+  "minimum-stability": "dev"
+}
