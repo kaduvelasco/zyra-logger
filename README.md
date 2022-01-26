@@ -18,13 +18,17 @@
 >- [Licença](#-licença)
 
 ## 🚀 Começando
+
 Esta é uma classe simples para trabalhar com log em PHP. Ela cria um arquivo por dia, no formato `prefixo_ANO-MES-DIA.log`.
 
 ## 📋 Pré-requisitos
+
 - PHP 7.4 ou superior
 
 ## 🔧 Instalação
+
 Utilizando um arquivo `composer.json`:
+
 ```json
 {
     "require": {
@@ -32,11 +36,15 @@ Utilizando um arquivo `composer.json`:
     }
 }
 ```
+
 Depois, execute o comando de instalação.
+
 ```
 $ composer install
 ```
+
 OU execute o comando abaixo.
+
 ```
 $ composer require kaduvelasco/zyra-logger
 ```
@@ -44,6 +52,7 @@ $ composer require kaduvelasco/zyra-logger
 ## 💻 Utilização
 
 ### Diretório para armazenar os logs
+
 O diretório onde os logs serão armazenados deve existir no servidor e possuir a permissão de escrita.
 
 ### Utilizando a Zyra Logger em seu projeto
@@ -117,6 +126,7 @@ Para as versões disponíveis, observe as [tags neste repositório][link-tags].
 O arquivo [VERSIONS.md][link-versions] possui o histórico de alterações realizadas no projeto.
 
 ## ✒ Autores
+
 - **Kadu Velasco** / Desenvolvedor
   - [Perfil][link-profile]
   - [Email][link-email]
